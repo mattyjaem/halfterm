@@ -183,6 +183,7 @@ function entryWelcome()
         call questionSequence
     else
         print("That does't appear to be correct. Let's try again")
+	entrywelcome()
     endif
 endfunction
 
